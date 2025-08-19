@@ -1,46 +1,40 @@
-🏏 Hand Cricket: A Nostalgic Mini-Game 🏏
-Hand Cricket is a classic childhood game brought to life on the web! This project is a simple yet engaging web-based version of the hand cricket game we all played with our friends in school. It's built as a fun, solo project to sharpen my frontend development skills.
+🏏 Hand Cricket Game
 
-✨ Features
-Player vs. Computer: Take on a simple AI that learns from your recent moves.
+A fun web-based Hand Cricket game where you can play against the computer!
+Test your luck, strategy, and reflexes in this digital twist of the classic street cricket game.
 
-Customizable Match: Set your desired number of overs and wickets.
+🎮 Play it live here: https://legendarysumit.github.io/handcricket_site/
 
-Innings System: Play two complete innings, just like a real cricket match.
+🚀 Features
 
-Scoreboard: Track your score, the computer's score, and the match status in real-time.
+⚡ Interactive batting & bowling gameplay
 
-Responsive Design: Playable on both desktop and mobile devices.
+🎲 Computer AI with weighted random logic while bowling
 
-💻 Technologies Used
-HTML: For the game structure and layout.
+🏆 Target chase system with overs and wickets
 
-CSS : For all the styling, including the cool-looking buttons and interface.
+📱 Responsive design (works on mobile & desktop)
 
-JavaScript: For all the game logic, state management, and DOM manipulation.
+📌 How to Play
 
-🕹️ How to Play
-Set the Rules: Choose the number of wickets and overs you want to play.
+Choose overs and wickets before starting the match.
 
-Toss: A coin toss decides who bats first.
+Toss decides who bats/bowls first.
 
-Batting: When batting, you select a number (1-6). If the computer throws the same number, you are OUT! Your score is the sum of all the runs you've scored.
+When you’re batting, pick a number (1–6).
 
-Bowling: When bowling, the computer will bat. If you throw the same number as the computer, the computer is OUT!
+If your number matches the computer’s bowl → you’re out.
 
-Target: In the second innings, the team batting needs to chase the target set by the first team.
+Otherwise, runs are added to your score.
 
-Win/Loss/Tie: The game ends when all wickets fall or the overs run out.
+When you’re bowling, the computer bats randomly.
 
-Live at : https://legendarysumit.github.io/handcricket_site/
+Chase or defend the target to win!
 
-🧠 Project Challenges & Learnings
-This was a fantastic learning experience! While the concept seems simple, making the game fully functional required a lot of debugging and logical problem-solving. Some of the key challenges included:
+🛠️ Tech Stack
 
-State Management: Keeping track of scores, wickets, overs, and whose turn it is.
+HTML5
 
-Game Loop Logic: Ensuring the game transitions smoothly between innings and handles all win/loss conditions correctly.
+CSS3
 
-UI Updates: Dynamically updating the scoreboard and game messages in real-time without glitches.
-
-I'm also a big believer in using modern tools, and this project was a great opportunity to lean on generative AI models for assistance. They were invaluable in helping me debug complex logical errors and brainstorm elegant solutions, proving that AI can be a powerful collaborator in the development process.
+JavaScript (vanilla)
