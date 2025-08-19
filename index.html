@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Cricket : Discover the Excitement of Street Cricket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="title">
+        <h1>Hand Cricket</h1>
+    </div>
+    <p id="game-description">Experience the thrill of street cricket right at your fingertips!</p>
+
+    <div class="updates">
+        <div class="player-choice">
+            <img class="hand" id="player-hand" src="assets/statichand.png" alt="Player's Hand">
+            <h2>You</h2>
+        </div>
+        <div class="computer-choice">
+            <img class="hand" id="computer-hand" src="assets/statichandREV.png" alt="Computer's Hand">
+            <h2>Computer</h2>
+        </div>
+    </div>
+
+    <div class="choice">
+        <button class="btn" id="1-button">
+            <img src="assets/1.png" alt="1-image" />
+        </button>
+        <button class="btn" id="2-button">
+            <img src="assets/2.png" alt="2-image" />
+        </button>
+        <button class="btn" id="3-button">
+            <img src="assets/3.png" alt="3-image" />
+        </button>
+        <button class="btn" id="4-button">
+            <img src="assets/4.png" alt="4-image" />
+        </button>
+        <button class="btn" id="5-button">
+            <img src="assets/5.png" alt="5-image" />
+        </button>
+        <button class="btn" id="6-button">
+            <img src="assets/6.png" alt="6-image" />
+        </button>
+    </div>
+
+    <div class="result"></div>
+
+    <div class="main-container">
+        <div class="left-container">
+            <label class="row">
+                <span>Wickets :</span>
+                <input id="wickets" type="number" min="1" max="10" value="1" />
+            </label>
+
+            <label class="row">
+                <span>Overs : </span>
+                <select id="overs">
+                    <option value="2" selected >2</option>
+                    <option value="4">4</option>
+                    <option value="8">8</option>
+                    <option value="10">10</option>
+                </select>
+            </label>
+
+            <div class="match-info">
+                <div class="innings" id="toss-status">Toss Status : N/A</div>
+                <div class="innings" id="innings-info">Innings Info : N/A</div>
+                <div class="innings" id="targetscore">Innings Info : N/A</div>
+            </div>
+        </div>
+
+        <div class="right-container">
+            <div class="score-row">
+                <h3>Player Score:</h3>
+                <p id="player-score"></p>
+            </div>
+
+            <div class="score-row">
+                <h3>Computer Score:</h3>
+                <p id="computer-score"></p>
+            </div>
+
+            <div class="score-row">
+                <h3>Runs to Win:</h3>
+                <p id="runs-left"></p>
+            </div>
+
+            <div class="score-row">
+                <h3>Wickets Left:</h3>
+                <p id="wickets-left"></p>
+            </div>
+
+            <div class="score-row">
+                <h3>Overs Left:</h3>
+                <p id="overs-left"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="game-control">
+        <button id="start-button">Start Game</button>
+    </div>
+
+    <div class="msg" id="toss-msg"></div>
+    <div class="toss-btn" id="toss-button">
+        <button id="heads" class="toss-btn"><img src="assets/heads.png" alt="Heads" class="src"></button>
+        <button id="tails" class="toss-btn"><img src="assets/tails.png" alt="Tails" class="src"></button>
+    </div>
+
+    <div id="toss-decision" class="bat-bowl-container" style="display: none;">
+        <button class="bat-bowl-btn">Bat</button>
+        <button class="bat-bowl-btn">Bowl</button>
+    </div>
+
+
+    <button id="reset-button">Reset Game</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
