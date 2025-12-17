@@ -4,23 +4,32 @@
 }
 
 body {
-    height: 100vh;
-    margin: 20px 0;
-    background: linear-gradient(to bottom,
-            #2e1304 0%,
-            #3a1805 15%,
-            #4e2008 35%,
-            #61400a 55%,
-            #876c09 75%,
-            #b49900 90%,
-            #ffd84d 100%);
-    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(
+        120deg,
+        #0f2027,
+        #203a43,
+        #2c5364,
+        #1cb5e0,
+        #000046
+    );
+    background-size: 400% 400%;
+    animation: arcadeFlow 30s ease infinite;
 }
+
+
+@keyframes arcadeFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
 
 .title {
     display: flex;
     place-content: center;
-    margin: 0 auto;
+    margin: 40px auto;
     padding: 1em;
     width: fit-content;
     font-size: 1rem;
