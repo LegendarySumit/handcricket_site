@@ -1,12 +1,12 @@
-🏏 Hand Cricket Game
+# 🏏 Hand Cricket Game 
 
 A fun web-based Hand Cricket game where you can play against the computer!
 Test your luck, strategy, and reflexes in this digital twist of the classic street cricket game.
 
 🎮 Play it live here: https://legendarysumit.github.io/handcricket_site/
 
-🚀 Features
-
+## 🚀 Features
+```
 ⚡ Interactive batting & bowling gameplay
 
 🎲 Computer AI with weighted random logic while bowling
@@ -14,9 +14,10 @@ Test your luck, strategy, and reflexes in this digital twist of the classic stre
 🏆 Target chase system with overs and wickets
 
 📱 Responsive design (works on mobile & desktop)
+```
 
-📌 How to Play
-
+## 📌 How to Play
+```
 Choose overs and wickets before starting the match.
 
 Toss decides who bats/bowls first.
@@ -30,8 +31,8 @@ Otherwise, runs are added to your score.
 When you’re bowling, the computer bats randomly.
 
 Chase or defend the target to win!
-
-🛠️ Tech Stack
+```
+## 🛠️ Tech Stack
 
 HTML5
 
